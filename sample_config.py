@@ -6,7 +6,7 @@ if HEROKU:
 
     from dotenv import load_dotenv
 
-    load_dotenv()  # take environment variables from .env.
+    load_dotenv()  # take environments variables from .env.
     API_ID = int(environ["API_ID"])
     API_HASH = environ["API_HASH"]
     SESSION_STRING = environ[
